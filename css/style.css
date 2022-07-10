@@ -1,0 +1,509 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav__body {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 93px;
+    flex-wrap: wrap;
+}
+.nav__menu {
+    display: flex;
+    align-items: center;
+}
+.nav__list {
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 12px 20px 12px 20px;
+}
+.nav__list :last-child {
+    margin-right: 0px;
+}
+.nav__list:hover {
+    background-color: #ffbb42;
+    color: #ffffff;
+
+}
+.main {
+    max-height: 589px;
+    background-color: #709dca;
+}
+
+.main__tittle {
+    color: #ffffff;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Gotham - Black";
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+    padding-top: 110px;
+
+}
+.main__text {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Open Sans - Light";
+    font-weight: 300;
+}
+.main__form {
+    display: flex;
+    justify-content: center;
+}
+.main__input {
+    margin: 33px 5px 67px 5px;
+    width: 281px;
+    height: 46px;
+    background-color: #ffffff;
+    color: #a9a9a9;
+    font-size: 13px;
+    text-align: left;
+}
+.name {
+    background: url(/img/form_name.png)  9px no-repeat;
+    padding-left: 41px;
+    background-color: #ffffff;
+}
+.email {
+    background: url(/img/form_email.png) 9px no-repeat;
+    padding-left: 41px;
+    background-color: #ffffff;
+    
+}
+.number {
+    background: url(/img/form_number.png)  9px no-repeat;
+    padding-left: 41px;
+    background-color: #ffffff;
+}
+.input__btn {
+    margin: 33px 5px 67px 5px;
+    width: 211px;
+    height: 46px;
+    background-color: #ffbb42;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slider__computer {
+    display: block;
+    margin: 0 auto;
+}
+.slider__btn {
+    width: 12px;
+    height: 11px;
+    border: 2px solid #dedfe0;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 24px;
+}
+.main__slider_btn {
+    display: flex;
+    justify-content: center;
+}
+.slider__btn:hover{
+    border: 2px solid #1ca8dd;
+}
+
+.services_tittle {
+    margin-top: 203px;
+
+}
+.tittle {
+    color: #394b50;
+    line-height: 22px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.75px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.subtittle {
+    color: #394b50;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: center;
+}
+.services__block {
+    margin-top: 80px;
+    padding: 0 0 0 80px;
+    width: 509px;
+}
+.services__card {
+    color: #394b50;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.services__card_text {
+    color: #7b7b7b;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+.services__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.clock {
+    background: url(/img/icon_clock.png) no-repeat;
+}
+.settings {
+    background: url(/img/icon_settings.png) no-repeat;
+}
+.study {
+    background: url(/img/icon_study.png) no-repeat;
+}
+.rocket {
+    background: url(/img/icon_rocket.png) no-repeat;
+}
+.friendly {
+    background: url(/img/icon_friendly.png) no-repeat;
+}
+.money {
+    background: url(/img/icon_money.png) no-repeat;
+}
+
+.about {
+    margin-top: 155px;
+    background: url(/img/table.png) no-repeat 0 0, #ffc155;
+    min-height: 623px;
+    background-size: 50% 100%;
+}
+.about__body {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.about__content {
+    width: 505px;
+}
+.about__tittle {
+    margin-top: 164px;
+    text-align: left;
+}
+.about__text {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 33px;
+    padding-top: 28px;
+}
+.button {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    width: 145px;
+    height: 46px;
+    border: 1px solid #e7ad48;
+    background-color: #ffc155;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.price {
+    background-color: #e7edf3;
+    height: 898px;
+}
+.price__tittle {
+    padding-top: 137px;
+    font-weight: bold;
+}
+
+.price__cards {
+    padding-top: 79px;
+    display: flex;
+    align-items: center;
+
+
+}
+.price__card_body {
+    padding: 30px;
+    width: 391px;
+    height: 441px;
+    border: 1px solid #ccd5df;
+    background-color: #ffffff;
+
+
+}
+.price__card_body:hover {
+    width: 391px;
+    height: 501px;
+    background-color: #709dca;
+}
+.price__plan {
+    padding: 27px 0 35px 0;
+    color: #818b95;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.price__cost {
+    text-align: center;
+    padding-bottom: 33px;
+}
+.price__account {
+    color: #b5bbc1;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: #e6e0e0 1px solid;
+    border-bottom: #e6e0e0 1px solid;
+}
+.price__hour {
+    color: #b5bbc1;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: #e6e0e0 1px solid;
+}
+.price__services {
+    color: #b5bbc1;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.price__cost_money{
+    line-height: 22px;
+    text-align: center;
+    color: #ffbb42;
+    font-family: "Lato - Bold";
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.price__btn {
+    width: 131px;
+    height: 42px;
+    background-color: #ffbb42;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price__cost_dollar {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: top;
+    color: #ffbb42;
+    font-family: "Lato - Bold";
+    text-transform: uppercase;
+
+}
+.flex__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.clients {
+    max-height: 908px;
+    background-color: #ffc155;
+}
+
+.clients__tittle {
+    padding-top: 141px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    line-height: 22px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.75px;
+
+}
+
+.clients__subtittle {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+}
+.clients__cards {
+    margin-top: 58px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.clients__tickets {
+    margin-bottom: 20px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    width: 567px;
+    height: 241px;
+    background-color: #ffffff;
+}
+.clients__tickets:nth-child(2n) {
+    margin-right: 0;
+}
+.clients__tickets:last-child{
+    margin-bottom: 160px;
+}
+.clients__foto {
+    margin: 30px;
+    width: 121px;
+    height: 121px;
+}
+.clients__message {
+    width: 344px;
+}
+.clients__message_text {
+    background: url(/img/quotes.png) 1px 5px no-repeat, url(/img/quotes.png) bottom no-repeat ;
+    color: #7b7b7b;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding: 5px 10px 0px 15px;
+
+}
+.clients__message_name {
+    padding-top: 29px;
+    color: #99a9ae;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.clients_name {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #f6772c;
+
+}
+.newsletter_tittle {
+    padding-top: 154px;
+}
+.newsletter {
+    height: 945px;
+
+}
+.newsletter_input {
+    border: 1px solid #cbcbcb;
+}
+.newslatter_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/img/maps.png) no-repeat ;
+    border-bottom: 1px #e3e7ec solid;
+}
+.newsletter_addres {
+    background: url(/img/ball_bg.svg) no-repeat;
+    width: 290px;
+    height: 300px;
+    border: 3px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter_addres_tittle {
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.newsletter_addres_text {
+    color: #aeb7ba;
+    font-size: 13px;
+    text-align: center;
+    line-height: 24px;
+}
+.newsletter_logo {
+    padding-bottom: 240px;
+}
+.footer_list{
+    text-align: center;
+}
+.footer_body{
+    display: flex;
+    justify-content: center;
+}
+.nav__footer_number {
+    text-align: center;
+    color: #394b50;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24.15px;
+
+}
+.nav__footer_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__footer_social_link {
+    padding: 24px 15px 53px 15px;
+}
+.footer {
+    background-color: #709dca;
+}
+.footer_copyright {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+
+    line-height: 24px;
+
+}
+.footer__body_copyright {
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav__footer_social_link img:hover {
+    background-color: #ffbb42;
+}
